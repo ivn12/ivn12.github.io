@@ -43,7 +43,6 @@
 	right: 0;
 	z-index: 50;
 	border: 0;
-	transition: all .7s
 }
 	
 
@@ -56,18 +55,43 @@
 	transition: all .7s ;
 }
 
-.boton2:hover{
+#no:hover{
 	transform: translate(850px,0);
-	
     
     
 }
 
 
+	
 
-.pagina2{
-	background-color: #800080;
+
+.boton3{
+	
+	color:white;
+	font-size:60px;
+	background-color: #6C2FB5;
+	display:block;
+	position:absolute;
+	bottom: 0vh;
+	z-index: 30000;
+	border:0;
+	text-decoration: none;
+	width: 100vw;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 60px
+	
+	
+	
+}
+
+.boton3:hover{
+	background: #9946FD;
+	font-size: 80px;
+	transition: all 1s;
 	color: white;
+
 }
 
 .cupon{
@@ -93,18 +117,48 @@
 	transition-delay: 1s;
 	transition: all 1s;
 }
-
-
-.boton3{
-	text-align: center;
-	color:blue;
-	font-size:60px;
-	background-color: green;
-	display:inline-block;
-	position:relative;
-	bottom: 0;
-	z-index: 30000;
-	border:0;
-	
-	
+.pagina2{
+	background-color: #800080;
+	color: white;
 }
+
+
+
+
+
+
+.coupon2 {
+  border: 10px double black; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 0 auto; /* Center the coupon */
+  max-width: 600px;
+  position: relative;
+  margin-top:15vh;
+  transform: scale(1.4);
+  transition: all 1s;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: black;
+  color: white;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+  color: black;
+}
+
+.expire {
+  color: red;
+  font-size: 20px;
+}
+
+.punch2{
+	position: relative;
+	left: 150px
+}
+
+
