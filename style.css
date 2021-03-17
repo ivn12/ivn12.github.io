@@ -96,10 +96,12 @@
 
 
 .boton3{
+	color:red;
+	font-size:60px;
 	background-color: green;
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
-	z-index: 3000;
+	z-index: 30000;
 	
 }
