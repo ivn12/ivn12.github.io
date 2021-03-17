@@ -63,11 +63,7 @@
     
 }
 
-.input{
-	position: absolute;
-	z-index: 10000;
-	
-}
+
 
 .pagina2{
 	background-color: #800080;
@@ -104,5 +100,6 @@
 	display: inline-block;
 	position: absolute;
 	bottom: 0;
+	z-index: 300;
 	
 }
