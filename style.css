@@ -104,5 +104,6 @@
 	position:relative;
 	bottom: 0;
 	z-index: 30000;
+	border:0;
 	
 }
